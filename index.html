@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+<body>
+<ol>
+  <li><a href="http://kubsu.ru"> Кубгу </a> </li>
+  <li><a href="https://kubsu.ru/">Кубгу</a></li>
+  <li><a href="https://ru.wikipedia.org/wiki/Flower"><img src="img/image.jpg" height="400" width="500" alt="цветочек"></a></li>
+  <li><a href="1111.html">Сокращенная ссылка на внутренюю страницу</a></li>
+  <li><a href="./index.html">Сокращенная ссылка на главную страницу</a></li>
+  <li><a href="#bottom">нижняя часть страницы(фрагмент текущей)</a></li>
+  <li><a href="https://www.onlinestor.com?product=socks&color=black&size=m">Ссылка с 3 параметрами </a></li>
+  <li><a href="https://www.kubsu.ru/index.php/?id=section-content">Ссылка с параметром id</a></li>
+  <li><a href="./1111.html">Относительная ссылка на странице в текущем каталоге</a></li>
+  <li><a href="./about/1888.html">Ссылка на каталог about </a></li>
+  <li><a href="../19999.html">Ссылка уровнем выше</a></li>
+  <li><a href="../../2000.html">Ссылка двумя уровнями выше</a></li>
+  <li><p>Согласно этой теории, все органы высших растений происходят и независимо развиваются из <a href="https://ru.wikipedia.org/wiki/%D0%A2%D0%B5%D0%BB%D0%BE%D0%BC">теломов</a>;
+    высшие растения с настоящими корнями и побегами происходят от риниофитов, тело которых было представлено системой
+    дихотомически ветвящихся простых цилиндрических осевых органов — теломов и мезомов. В ходе эволюции в результате
+    перевершинивания, уплощения, срастания и редукции теломов возникли все органы покрытосеменных растений.
+    Листья семенных растений возникли из уплощённых и сросшихся между собой систем теломов; стебли — благодаря боковому
+    срастанию теломов; корни — из систем подземных теломов. Основные части цветка — тычинки и пестики — возникли из
+    спороносных теломов и эволюционировали независимо от вегетативных листьев.</p></li>
+  <li><a href="https://librebook.me/flowers_for_algernon/vol1/2#:~:text=%D0%94%D0%BE%D0%BA%20%D0%A8%D1%82%D1%80%D0%B0%D1%83%D1%81%20%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BB,%D0%BA%D0%BE%D0%B3%D0%B4%D0%B0%20%D1%8F%20%D0%B7%D0%B0%D1%85%D0%BE%D1%87%D1%8E.">
+    Ссылка на фрагмент страницы </a></li>
+  <li><img src="img/46.jpg" usemap = "#figuri" alt="figures">
+    <map name = "figuri" >
+      <area shape = "rect" coords = "236,61,367,224" href = "https://en.wikipedia.org/wiki/Rectangle" alt = "квадрат" >
+      <area shape = "circle" coords = "120,134,80" href = "https://en.wikipedia.org/wiki/Circle" alt = "круг." >
+    </map>
+  <li><a href="#">Пустой href</a></li>
+  <li><a>Ссылка без href</a></li>
+  <li> <a href="https://kubsu.ru/" rel="nofollow">ссылка по которой нельзя следовать яндексу</a></li>
+  <li><!--noindex--><a href="https://kubsu.ru/">ссылка по которой нельзя индексировать яндексу</a><!--/noindex--></li>
+  <li> <ul>
+    <li><a href="https://ru.wikipedia.org/wiki/%D0%9A%D0%BE%D1%88%D0%BA%D0%B0" title=”Котики”>Один</a></li>
+    <li><a href="https://ru.wikipedia.org/wiki/%D0%A1%D0%BE%D0%B1%D0%B0%D0%BA%D0%B0" title=”Собачки”>Два</a></li>
+    <li><a href="https://ru.wikipedia.org/wiki/%D0%92%D1%8B%D0%B4%D1%80%D0%B0" title="Выдры">Три</a></li>
+  </ul></li>
+  <li> <a href="ftp://demo:password@test.rebex.net/pub/example/readme.txt"> FTTP </a> </li>
+</ol>
+<h1>Форма HTML</h1>
+<form>
+<ol>
+<li><label>
+  <input type="text" name="userName" placeholder="Введите ФИО" size="18">
+</label></li>
+<li><label>
+  <input name="phone" type="tel" pattern="[0-9]{1}-[0-9]{3}-[0-9]{3}" placeholder="Номер телефона">
+</label></li>
+<li><label>
+  <input type="email" name="login" placeholder="Email">
+</label></li>
+  <li><label>
+    Дата рождения:<br>
+    <input name="field-date"
+           value="2019-08-13"
+           type="date">
+  </label><br></li>
+  <li><br>
+    <label><input type="radio" checked="checked"
+                  name="radio-group-1" value="Значение1">
+      Женский </label>
+    <label><input type="radio"
+                  name="radio-group-1" value="Значение2">
+      Мужской </label><br></li>
+  <li><label>
+    Любимый язык:
+    <br>
+    <select name="field-name-4[]"
+            multiple="multiple">
+      <option value="Значение1">Pascal</option>
+      <option value="Значение2" selected="selected">C</option>
+      <option value="Значение3" selected="selected">C++</option>
+      <option value="Значение4" selected="selected">JavaScript</option>
+      <option value="Значение5" selected="selected">PHP</option>
+      <option value="Значение6" selected="selected">Python</option>
+      <option value="Значение7" selected="selected">Java</option>
+      <option value="Значение8" selected="selected">Haskel</option>
+      <option value="Значение9" selected="selected">Clojure</option>
+      <option value="Значение10" selected="selected">Prolog</option>
+      <option value="Значение11" selected="selected">Scala</option>
+    </select>
+  </label><br></li>
+  <li><label>
+    <br>
+    <textarea name="field-name-2" placeholder="Биография"></textarea>
+  </label><br></li>
+  <li><br>
+    <label><input type="checkbox" checked="checked"
+                  name="check-1">
+      С контрактом ознакомлен(а)</label><br></li>
+  <li><input type="submit" value="Сохранить"></li>
+</ol>
+</form>
+<a id="bottom"></a>
+</body>
+</html>
